@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{{
     char d;
     printf("Enter a character: ");
     scanf("%d",&d);
@@ -11,4 +11,4 @@ int main()
         printf("%d is not an alphabet.",d);
 
     return 0;
-}
+}}
