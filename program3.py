@@ -1,8 +1,8 @@
 p=raw_input()
 if(p.isalpha()):
-    if(c=='a'or c=='e' or c=='0' orc=='u'):
-        print('vowel')
+    if(p=='a'or p=='e' or p=='0' or p=='u'):
+        print('Vowel')
               else
-     print('consonant')
+     print('Consonant')
               else
-              print('invalid')
+              print('Invalid')
