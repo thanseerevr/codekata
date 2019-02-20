@@ -1,25 +1,15 @@
-#include <stdio.h>
-int main()
-{{
-    double n1, n2, n3;
+b1,b2,b3=input().split()
+b1=int(b1)
+b2=int(b2)
+b3=int(b3)
 
-    printf("Enter three numbers: ");
-    scanf("%lf %lf %lf", &n1, &n2, &n3);
-
-    if (n1>=n2)
-    {
-        if(n1>=n3)
-            printf("%.2lf is the largest number.", n1);
-        else
-            printf("%.2lf is the largest number.", n3);
-    }
-    else
-    {
-        if(n2>=n3)
-            printf("%.2lf is the largest number.", n2);
-        else
-            printf("%.2lf is the largest number.",n3);
-    }
+if(b1 > b2) and (b1 > b3):
+    largest =b1
+elif(b2 > b1) and (b2 > b3):
+    largest=b2
+else:
+    largest=b3
     
-    return 0;
-}}
+print(largest)    
+    
+   
