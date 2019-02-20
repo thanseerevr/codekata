@@ -1,5 +1,5 @@
 z=int(raw_input())
 x=z+1
-cyz*x
+y=z*x
 d=y/2
 print(d)
