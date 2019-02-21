@@ -1,7 +1,7 @@
-a = 2
+f = 2
 exponent = 3
 
 while exponent < 3+1:
-a = a=*exponent
+f = f=*exponent
 exponent= exponent + 1
-print(a)
+print(f)
