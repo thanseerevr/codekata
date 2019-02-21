@@ -1,5 +1,6 @@
 
-start,end =2, 6
-for num in range(start, end + 1):
-    if num % 2 !=0:
-       print(num) ,
+small=int(input(2))
+large=int(input(6))
+for i in range(small,large+1):
+    if(i%4!=0):
+        print(i),
